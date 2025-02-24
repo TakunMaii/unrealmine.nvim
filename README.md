@@ -1,4 +1,4 @@
-# Unreal.nvim
+# unrealmine.nvim
 Unreal Engine support for Neovim
 ![image](https://raw.githubusercontent.com/zadirion/Unreal.nvim/main/image.png)
 
@@ -6,13 +6,12 @@ Unreal Engine support for Neovim
 
 - make sure you install  the clangd support component through Visual Studio Setup, and make sure the installed clang++.exe is in your system path env variable. Needs to be added manually to path, the installer does not do that
 - has been tested with Unreal Engine 5.1 and 5.2. Unsure what, if any other versions work
-- (optional) If you don't already have your own configuration, I recommend you use my neovim configuration specialized for development in Unreal Engine https://github.com/zadirion/UnrealHero.nvim
 
 **Installation**
 
 Install with packer:
 ```
-  use {'zadirion/Unreal.nvim',
+  use {'TakunMaii/unrealmine.nvim',
     requires =
     {
         {"tpope/vim-dispatch"}
